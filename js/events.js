@@ -16,13 +16,15 @@ function submitIt() {
   });
 }
 
-// function pressIt() {
-//   $("input").on("keydown", function() {
-//     if ($("input:first").val() === "g") {
-//     alert("You have pressed the 'G' key");
-//     return;
-//   });
-// }
+function pressIt() {
+  $("input").on("keydown", function() {
+    if ($("input:first").val() === "g")
+    {
+    alert("You have pressed the 'G' key");
+    return;
+    }
+  });
+}
 
 $(document).ready(function(){
 
