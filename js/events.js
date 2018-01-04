@@ -18,7 +18,7 @@ function submitIt() {
 
 function pressIt() {
   $("input").on("keydown", function() {
-    if ($("input:first").val() === "G")
+    if ($("input").val() === "G")
     {
     alert("You have pressed the 'G' key");
     return;
