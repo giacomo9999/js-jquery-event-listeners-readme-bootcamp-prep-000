@@ -18,12 +18,10 @@ function submitIt() {
 
 function pressIt() {
   $("input").on("keydown", function() {
-    if ($("input").val() === "G")
-    {
-    alert("You have pressed the 'G' key");
-    return;
-    }
-  });
+    if(key.which == 83){
+      alert('s was pressed');
+  }
+});
 }
 
 $(document).ready(function(){
